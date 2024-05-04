@@ -1,0 +1,445 @@
+/* Hlavní styly */
+html {
+    height: 100%;
+}
+
+body {
+    /*background-color: rgb(0, 250, 154);*/
+    background-color: skyblue;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 255);
+    font-size: 1em;
+    color: white;
+}
+
+h1 {
+    border-style: double;
+    border-color: turquoise;
+    color: turquoise;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+h3 {
+    color: rgb(0, 0, 255);
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+nav.navbar-dark {
+    /*background-color: rgb(0, 0, 255) !important;*/
+    background-image: linear-gradient(navy,navy, blue, navy, skyblue);
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid skyblue;
+}
+
+/*.sticky-top {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}*/
+
+.bg-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    /*color: turquoise;
+    border: 3px double turquoise;*/
+    color: white;
+    border: 3px double white;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+
+#zapati {
+    background-image: radial-gradient(blue, rgb(0, 60, 200), blue);
+    background-image: linear-gradient(skyblue, navy, navy, rgb(0, 60, 200), navy, navy, skyblue);
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+/* seaton = search button */
+.seaton:hover, .seaton {
+    background-image: none;
+    border: none;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* CSS Třídy */
+
+.p {
+    font-size: 2em;
+    font-family: 'PT Serif', serif;
+}
+
+.pp {
+    font-size: 1em;
+    font-family: 'PT Serif', serif;
+}
+
+.block {
+    text-align: center;
+    /*border: double blue 3px;
+    background-color: none;
+    height: auto;*/
+}
+
+.foto { /* NAHRADIT .img */
+    width: 100%;
+    border-radius: 5px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.foto-kontakt, .video {
+    height: auto;
+    width: 80%;
+}
+
+.pravo {
+    float: right;
+}
+
+.levo {
+    float: left;
+}
+
+.table {
+    display: inline-flex;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* Třídy pro úvodní foto na jednotlivých stránkách*/
+
+.pozadi {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.hlavni-stranka {
+    background-image: url("../img/fontana.jpg");
+}
+
+.pozadi-historie {
+    background-image: url("../img/kral_jiri_z_podebrad-pozadi-historie.jpg");
+}
+
+.pozadi-kultura {
+    background-image: url("../img/park_podebrady_pozadi-kultura.jpg");
+}
+
+.pozadi-turistika {
+    background-image: url("../img/lazensky_park-pozadi-turistika.jpg");
+}
+
+.pozadi-mesto {
+    background-image: url("../img/podebrady-pozadi-zamek.jpg");
+}
+
+.pozadi-jiri {
+    background-image: url("../img/jiri-pozadi.jpg");
+}
+
+.pozadi-lazne {
+    background-image: url("../img/fontana.jpg");
+}
+
+.pozadi-kostel {
+    background-image: url("../img/hav-kostel.jpg");
+}
+
+.pozadi-lod {
+    background-image: url("../img/lod-jiri.jpg");
+}
+
+.pozadi-vlacek {
+    background-image: url("../img/vlacek_zepredu.jpg");
+}
+
+.pozadi-prameny {
+    background-image: url("../img/pramen2.jpg");
+}
+
+.pozadi-film {
+    background-image: url("../img/film-pozadi.jpg");
+}
+
+.pozadi-sochy {
+    background-image: url("../img/jiri-pozadi.jpg");
+}
+
+.pozadi-rights {
+    background-image: url("../img/prava.png");
+}
+
+.rights {
+    color: white;
+}
+
+.rights:hover {
+    color: skyblue;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* CSS ID */
+
+#pro_vas {
+    text-align: center;
+    color: blue;
+    font-size: 3em;
+    border: dashed 3px blue;
+}
+
+#border {
+    border: dashed 3px blue;
+}
+
+#socha-text {
+    text-align: center;
+    color: blue;
+    font-size: 2em;
+    /*border: dashed;*/
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* Styly odkazů v CSS */
+
+a:hover {
+    color: skyblue !important;
+}
+
+.a:hover {
+    color: navy !important;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* Tabulka */
+
+/*table {
+    table-layout: auto;
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: blue 3px double;
+    width: 100%;
+}
+
+th {
+    font-size: 20px;
+}
+
+
+
+th {
+    font-size: 20px;
+}
+
+td {
+    border: solid 3px blue;
+}
+
+td th {
+    border: 3px solid blue;
+    text-align: left;
+    padding: 8px;
+}
+
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}*/
+
+
+table {
+    border: 3px solid white;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: navy;
+    color: white;
+}
+
+th, td {
+    border: 1px solid white;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:hover, tbody td:hover {
+    background-color: skyblue;
+    color: black;
+    /*text-transform: capitalize;*/
+}
+
+.prvek {
+    background-color: blue;
+    color: white;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* Responsivita Youtube videí */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+ /* Track */
+::-webkit-scrollbar-track {
+    background: navy;
+  }
+  
+ /* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(navy, blue, skyblue, blue, navy);
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    background-color: skyblue;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+img {
+    border-radius: 5px;
+  }
+  
+.cont {
+    padding: 2px 16px;
+    background-color: skyblue;
+  }
+
+  /* -------------------------------------------------------------------- */
+
+  /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .contik {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: blue;
+    font-size: 35px;
+    cursor: pointer;
+  }
